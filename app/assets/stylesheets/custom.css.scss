@@ -1,0 +1,44 @@
+@import "bootstrap";
+/* page components */
+
+body {
+  padding-top: 60px;
+}
+
+.center {
+  text-align: center;
+  background: #FCF5EB;
+  width: 90% ;
+  margin-left: auto ;
+  margin-right: auto ;  
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* header components */
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #FAEBD7;
+  text-transform: uppercase;
+  padding-top: 9px;
+}
+
+/* footer components */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #FAEBD7;
+  color: #FFFFF0;
+}
+
+footer a {
+  color: #FAEBD7;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
